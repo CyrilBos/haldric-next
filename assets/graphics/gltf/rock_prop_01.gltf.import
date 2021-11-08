@@ -1,0 +1,41 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://5n4vk2astsok"
+path="res://.godot/imported/rock_prop_01.gltf-5f4d50738dc2c7172a6dba15d6207b67.scn"
+
+[deps]
+
+source_file="res://assets/graphics/gltf/rock_prop_01.gltf"
+dest_files=["res://.godot/imported/rock_prop_01.gltf-5f4d50738dc2c7172a6dba15d6207b67.scn"]
+
+[params]
+
+nodes/root_type="Node3D"
+nodes/root_name="Scene Root"
+nodes/root_scale=1.0
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=2
+meshes/lightmap_texel_size=0.1
+skins/use_named_skins=true
+animation/import=true
+animation/fps=15
+import_script/path=""
+_subresources={
+"materials": {
+"rock_mesh1_material": {
+"use_external/enabled": true,
+"use_external/path": "res://assets/graphics/materials/rock_mesh1_material.tres"
+}
+},
+"meshes": {
+"rock_prop_01_mesh1": {
+"save_to_file/enabled": true,
+"save_to_file/path": "res://assets/graphics/models/rock_prop_01_mesh1.tres"
+}
+}
+}

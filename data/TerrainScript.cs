@@ -10,6 +10,7 @@ public class TerrainScript : TerrainLoader
 		NewBase("Sd", new List<TerrainType>() { TerrainType.Rough });
 		NewBase("Sm", new List<TerrainType>() { TerrainType.Rough }, -0.4f);
 		NewBase("Sb", new List<TerrainType>() { TerrainType.Rough }, -0.4f);
+		NewBase("Mm", new List<TerrainType>() { TerrainType.Rough });
 		
 		NewShallowWater("Ws", new List<TerrainType>() { TerrainType.ShallowWaters });
 		NewDeepWater("Wo", new List<TerrainType>() { TerrainType.DeepWaters });
@@ -58,6 +59,12 @@ public class TerrainScript : TerrainLoader
 		AddTerrainNormalTexture("Wo", "assets/graphics/images/mud_normal.png");
 		AddTerrainRoughnessTexture("Wo", "assets/graphics/images/mud_roughness.png");
 
+		AddTerrainTexture("Mm", "assets/graphics/images/stone_basecolor.png");
+		AddTerrainNormalTexture("Mm", "assets/graphics/images/stone_normal.png");
+		AddTerrainRoughnessTexture("Mm", "assets/graphics/images/stone_roughness.png");
+
+
+
 		// AddKeepPlateauGraphic("Kh", "assets/graphics/models/keep_plateau.tres", new Godot.Vector3(0f, 1.5f, 0f));
 		AddWallSegmentGraphic("Kh", "assets/graphics/models/keep_wall.tres");
 		AddWallTowerGraphic("Kh", "assets/graphics/models/keep_tower.tres");
@@ -72,6 +79,11 @@ public class TerrainScript : TerrainLoader
 		AddDirectionalDecorationGraphic("Ff", "assets/graphics/models/forest_pine_outer_01.tres", "outer");
 		AddDirectionalDecorationGraphic("Ff", "assets/graphics/models/forest_pine_outer_02.tres", "outer");
 		AddDirectionalDecorationGraphic("Ff", "assets/graphics/models/forest_pine_outer_03.tres", "outer");
+
+		AddDecorationGraphic("Mm", "assets/graphics/models/rock_center_01_mesh_01.tres", "center");
+
+		
+		AddDirectionalDecorationGraphic("Mm", "assets/graphics/models/rock_prop_01_mesh1.tres", "outer");
 
 		AddDecorationGraphic("Vh", "assets/graphics/models/Village_human_center_01.tres", "center");
 		AddDecorationGraphic("Vh", "assets/graphics/models/Village_human_center_02.tres", "center");
